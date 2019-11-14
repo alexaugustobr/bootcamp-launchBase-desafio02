@@ -1,0 +1,45 @@
+/* ==== STYLES ==== */
+
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+.max-width {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.nav-menu {
+    display: flex;
+    margin: 30px 0;
+}
+
+.nav-menu img {
+    margin-right: 60px;
+}
+
+.nav-menu ul li {
+    display: inline;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.bg-main {
+    background: #FBDFDB;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px 0 80px;
+}
+
+.intro {
+    margin-top: 60px;
+    max-width: 320px;
+}
+
+.intro h1 {
+    font-size: 32px;
+}
