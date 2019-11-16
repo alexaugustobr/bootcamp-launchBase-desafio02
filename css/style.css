@@ -55,7 +55,6 @@ body, a {
 }
 
 .intro {
-
     max-width: 320px;
 }
 
@@ -135,41 +134,43 @@ section h2 {
 .modal {
     background: #fff;
     width: 660px;
-    height: 420px;
+    height: 413px;
     margin: 25vh auto;
 }
 
 /* ==== MODAL ACTIVE ==== */
+
+.modal-content {
+    text-align: center;
+}
 
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
 }
 
-.modal-content {
-    text-align: center;
-}
-
 .modal-content-img img {
     border-radius: 15px;
-    height: 270px;
+    width: 600px;
+    height: 200px;
     margin-top: 30px;
 }
 
 .modal-content-description h3 {
     font-size: 22px;
-    margin: 10px auto;
+    margin-top: 20px;
 }
 
 .modal-content-description p {
     color: #777;
     font-size: 16px;
+    margin-top: 10px;
 }
 
 .modal-content-close p {
     color: #999999;
     cursor: pointer;
     font-size: 14px;
-    margin-top: 25px;
+    margin-top: 60px;
     text-align: center;
 }
