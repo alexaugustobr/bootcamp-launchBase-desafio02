@@ -1,20 +1,20 @@
 //FUNCTION TO MODAL
 
 const modalOverlay = document.querySelector('.modal-overlay')
-const revenues = document.querySelectorAll(".revenue")
+const recipes = document.querySelectorAll(".recipe")
 
-for (let revenue of revenues) {
+for (let recipe of recipes) {
     
-    revenue.addEventListener("click", function() {
+    recipe.addEventListener("click", function() {
 
-        const imgId = revenue.getAttribute("id")
-        const revenueH3 = revenue.querySelector('h3').textContent
-        const revenueP = revenue.querySelector('p').textContent
+        const imgId = recipe.getAttribute("id")
+        const recipeH3 = recipe.querySelector('h3').textContent
+        const recipeP = recipe.querySelector('p').textContent
 
         modalOverlay.classList.add('active')
         modalOverlay.querySelector("img").src = `assets/${imgId}.png`
-        modalOverlay.querySelector(".modal-content-description h3").textContent = revenueH3
-        modalOverlay.querySelector(".modal-content-description p").textContent = revenueP
+        modalOverlay.querySelector(".modal-content-description h3").textContent = recipeH3
+        modalOverlay.querySelector(".modal-content-description p").textContent = recipeP
 
     })
 }

@@ -25,9 +25,9 @@ body, a {
     margin: 30px 0;
 }
 
-.nav-menu img {
+/* .nav-menu img {
     margin-right: 60px;
-}
+} */
 
 .nav-menu ul li {
     display: inline;
@@ -89,22 +89,22 @@ section h2 {
     margin-bottom: 60px;
 }
 
-.revenue img {
+.recipe img {
     border-radius: 15px;
     cursor: pointer;
 }
 
-.revenue h3 {
+.recipe h3 {
     cursor: pointer;
     font-size: 18px;
     margin: 15px 0 10px 0;
 }
 
-.revenue h3:hover {
+.recipe h3:hover {
     text-decoration: underline;
 }
 
-.revenue p {
+.recipe p {
     color: #777;
     font-size: 14px;
 }

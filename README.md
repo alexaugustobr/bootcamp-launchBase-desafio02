@@ -4,7 +4,7 @@
 
 # Desafio Foodfy
 
-Nesse desafio você vai construir um site completo para uma empresa de receitas chamada revenuefy.
+Nesse desafio você vai construir um site completo para uma empresa de receitas chamada foodfy.
 
 <div align="center">
   <img src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/mockup.png" />
